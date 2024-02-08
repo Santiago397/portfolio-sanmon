@@ -1,7 +1,11 @@
+import Navbar from "./components/navbar/Navbar"
+
 const App = () => {
   return (
     <>
-      <h1>portfolio-sanmon</h1>
+      <section>
+        <Navbar />
+      </section>
     </>
   )
 }
