@@ -1,0 +1,65 @@
+.g-wrapper {
+  max-width: 1000px;
+}
+
+.g-head {
+  color: var(--primary);
+}
+
+.g-head  .icon {
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in;
+}
+
+.g-head .icon > *:hover {
+  transform: scale(1.3);
+}
+
+.g-titles {
+  position: relative;
+}
+
+.g-titles > div {
+  flex: 7;
+}
+
+.g-titles .title {
+  font-family: 'Sulphur Point', sans-serif;
+  font-weight: bolder;
+  font-size: 7.5rem;
+}
+
+.g-image {
+  width: 320px;
+}
+
+.g-titles .title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -150px;
+  left: -150px;
+  z-index: -1;
+  width: 420px;
+  height: 420px;
+  background-image: url('/public/blob.png');
+  background-size: cover;
+  opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+  .g-titles .title {
+    font-size: 4.5rem;
+  }
+  
+  .g-image > img {
+    width: 320px;
+  }
+}
+
+@media (min-width: 768px) {
+  .g-image {
+    width: 35%;
+  }
+}
