@@ -1,10 +1,32 @@
-import './Navbar.css'
+import { useState } from "react";
+import { BiMenuAltRight } from "react-icons/bi";
+import { IoIosClose } from "react-icons/io";
+
+import "./Navbar.css";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <section className='n-wrapper'>
-      <nav className='flexCenter paddings innerWidth n-container '>
-        <ul className='flexCenter n-list'>
+    <section className="paddings innerWidth n-wrapper">
+      {
+        isOpen ?
+        <IoIosClose
+            className="icon"
+            size={30}
+            onClick={() => setIsOpen(false)}
+          />
+        :
+        <BiMenuAltRight
+          className="icon"
+          size={30}
+          onClick={() => setIsOpen(true)}
+        />
+      }
+      <nav
+        className={`paddings n-container`}
+      >
+        <ul className={`n-list ${isOpen && "mobile"}`}>
           <li>About</li>
           <li>Experience</li>
           <li>Projects</li>
@@ -12,7 +34,7 @@ const Navbar = () => {
         </ul>
       </nav>
     </section>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
