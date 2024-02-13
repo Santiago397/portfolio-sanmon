@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-.icon {
+.n-wrapper .icon {
   align-self: flex-end;
 }
 
@@ -60,6 +60,10 @@ li:hover::after {
     display: none;
   }
 
+  .n-wrapper .icon {
+    z-index: 91;
+  }
+
   .mobile {
     position: absolute;
     left: 0;
@@ -73,16 +77,13 @@ li:hover::after {
     display: flex;
     flex-direction: column;
     padding: 0;
+    transition: all 0.5 ease-in-out;
   }
 
 }
 
 @media (min-width: 1024px) {
-  .icon {
-    display: none;
-  }
-
-  .n-close {
+  .n-wrapper .icon {
     display: none;
   }
 }
