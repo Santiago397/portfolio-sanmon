@@ -33,9 +33,6 @@ const Greeting = () => {
             alt="photo personal"
           />
         </aside>
-        <div className="flexCenter innerWidth icon">
-          <FaAngleDown size={"3rem"} />
-        </div>
       </article>
     </section>
   );
