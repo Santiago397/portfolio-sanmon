@@ -1,6 +1,7 @@
 import Greeting from "./components/greeting/Greeting"
 import Navbar from "./components/navbar/Navbar"
 import './App.css'
+import About from "./components/about/About"
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <section className="flexCenter innerWidth app">
         <Navbar />
         <Greeting />
+        <About />
       </section>
     </>
   )

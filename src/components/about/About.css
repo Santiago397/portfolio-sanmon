@@ -1,0 +1,35 @@
+.a-wrapper {
+  color: var(--primary);
+  padding: 7rem 3rem;
+}
+
+.a-container {
+  gap: 2rem;
+  flex: 6;
+}
+
+
+.a-social {
+  gap: 1rem;
+}
+
+.a-social svg:hover {
+  color: #3C2A21;
+}
+
+.a-mail {
+  gap: 1rem;
+}
+
+.a-mail > svg {
+  cursor: pointer;
+}
+
+.a-mail > svg:hover {
+  color: #3C2A21;
+}
+
+.a-images {
+  flex: 4;
+}
+
