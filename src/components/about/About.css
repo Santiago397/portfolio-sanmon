@@ -4,8 +4,23 @@
 }
 
 .a-container {
+  position: relative;
   gap: 2rem;
   flex: 6;
+}
+
+.a-container .title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -50px;
+  left: -150px;
+  z-index: -1;
+  width: 420px;
+  height: 420px;
+  background-image: url('/blob3.png');
+  background-size: cover;
+  opacity: 0.6;
 }
 
 
