@@ -51,7 +51,7 @@ const About = () => {
         </div>
       </motion.article>
       <article className="flexColCenter innerWidth a-images">
-        <Carousel slides={slides}/>
+        {/* <Carousel slides={slides}/> */}
       </article>
     </section>
   );
