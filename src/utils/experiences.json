@@ -1,0 +1,33 @@
+[
+  {
+    "company": "LaLicorera.com",
+    "role": "Desarrollador web junior",
+    "start": "Julio 2022",
+    "end": "Julio 2023",
+    "duties": [
+      "Mantenimiento y actualización en la página LaLicorera.com",
+      "Optimización de código en aplicativo de administración de inventario"
+    ],
+    "tech": [
+      "VueJS",
+      "Javascript",
+      "Laravel",
+      "PHP"
+    ]
+  },
+  {
+    "company": "Globant",
+    "role": "Pasantías",
+    "start": "Junio 2018",
+    "end": "Diciembre 2018",
+    "duties": [
+      "Desarrollo de aplicativo interno para administrar eventos deportivos"
+    ],
+    "tech": [
+      "ReactJS",
+      "Javascript",
+      "Java",
+      "Springboot"
+    ]
+  }
+]

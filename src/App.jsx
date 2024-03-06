@@ -2,6 +2,7 @@ import Greeting from "./components/greeting/Greeting"
 import Navbar from "./components/navbar/Navbar"
 import './App.css'
 import About from "./components/about/About"
+import Experience from "./components/experience/Experience"
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
         <Navbar />
         <Greeting />
         <About />
+        <Experience />
       </section>
     </>
   )
