@@ -1,0 +1,10 @@
+.chip-container {
+  background: var(--primary);
+  padding: 1rem 1.5rem;
+  border-radius: 80px;
+}
+
+.chip-container > span {
+  color: var(--secondary);
+  font-weight: 600;
+}
