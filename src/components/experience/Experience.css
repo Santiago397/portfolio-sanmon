@@ -25,6 +25,20 @@
   margin: 3rem 0;
 }
 
+.e-wrapper {
+  display: flex;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.e-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+
 .e-subtitle > span{
   font-weight: 700;
 }
@@ -40,4 +54,8 @@
 .e-chips {
   gap: 1rem;
   margin-top: 1rem;
+}
+
+.time-line {
+  flex: 4;
 }
