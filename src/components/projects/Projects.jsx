@@ -6,7 +6,7 @@ import Chips from '../chips/Chips'
 const Projects = () => {
   return (
     <section className="paddings innerWidth p-wrapper">
-      <h5>Proyectos</h5>
+      <h5 className='title'>Proyectos</h5>
       <article className='innerWidth paddings p-container'>
         {
           projects.length >= 1
@@ -27,14 +27,15 @@ const Projects = () => {
                     </div>
                   </section>
                   <aside className='flexCenter innerWidth p-image'>
-                    <img src={p.img} height={200} alt="" />
+                    {
+                      p.img.includes('http')
+                      && <img src={p.img} height={200} alt="" />
+                    }
                   </aside>
                 </article>
               )
             })
             : <h6 className='flexCenter paddings'>Trabajando en ello 😛😛😛</h6>
-            // Subir imagenes del proyecto android.
-            // Duplicar el repositorio del proyecto de android
           }
       </article>
     </section>

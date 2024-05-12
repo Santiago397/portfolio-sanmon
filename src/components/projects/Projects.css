@@ -2,6 +2,23 @@
   color: var(--primary);
 }
 
+.p-wrapper .title {
+  position: relative;
+}
+
+.p-wrapper .title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -100px;
+  left: -150px;
+  z-index: -1;
+  width: 420px;
+  height: 420px;
+  background-image: url('/blob5.png');
+  background-size: cover;
+}
+
 .p-container {
   display: flex;
   flex-direction: column;
