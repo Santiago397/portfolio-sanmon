@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Project Dummy",
+    "features": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Quisque elementum lorem vel mauris aliquam, eu pharetra erat scelerisque.",
+      "Nam id neque sed massa viverra mattis vitae quis lorem. Aliquam ut augue maximus, maximus elit ac, vulputate sapien."
+    ],
+    "tech": [
+      "ReactJS",
+      "Javascript",
+      "Java",
+      "Springboot"
+    ],
+    "img": "https://images.unsplash.com/photo-1594322436404-5a0526db4d13?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "link": "https://google.com"
+  }
+]
