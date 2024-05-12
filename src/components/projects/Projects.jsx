@@ -2,6 +2,7 @@ import React from 'react'
 import "./Projects.css"
 import projects from '../../utils/projects.json'
 import Chips from '../chips/Chips'
+import { FaExternalLinkAlt } from 'react-icons/fa'
 
 const Projects = () => {
   return (
@@ -14,7 +15,12 @@ const Projects = () => {
               return (
                 <article className='innerWidth p-details' key={index}>
                   <section className='p-features'>
-                    <h6>{p.name}</h6>
+                    <h6>
+                      <a href={p.link} target='blank'>
+                        {p.name}
+                        <FaExternalLinkAlt title='Github' size={20} />
+                      </a>
+                    </h6>
                     <ul>
                       {
                         p.features.map((feature, index) => <li key={index}>{feature}</li>)
