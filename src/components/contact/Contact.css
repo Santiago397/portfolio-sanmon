@@ -1,0 +1,79 @@
+.c-wrapper {
+  display: flex;
+  row-gap: 2rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.c-wrapper .title {
+  position: relative;
+}
+
+.c-wrapper .title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -100px;
+  left: -150px;
+  z-index: -1;
+  width: 420px;
+  height: 420px;
+  background-image: url('/blob4.png');
+  background-size: cover;
+}
+
+.c-content {
+  gap: 2rem;
+}
+
+.c-form {
+  flex: 6;
+}
+
+.c-form label {
+  margin-bottom: 2.5rem;
+  color: var(--primary);
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.c-form label > * {
+  width: 100%;
+  margin-top: 1rem;
+  font-size: medium;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid var(--primary);
+}
+
+.c-form label > *:focus {
+  outline: none;
+}
+
+.c-form label > input {
+  height: 2rem;
+}
+
+.c-form button {
+  background-color: var(--primary);
+  color: var(--secondary);
+  font-weight: bolder;
+  border: none;
+  font-size: large;
+  border-radius: 30px;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+.c-text {
+  flex: 4;
+  gap: 2rem;
+}
+
+.c-text > p{
+  max-width: 500px;
+}
+
+.c-text div {
+  gap: 2rem;
+} 
