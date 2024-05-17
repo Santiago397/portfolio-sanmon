@@ -13,7 +13,7 @@
   content: "";
   display: block;
   position: absolute;
-  top: -50px;
+  top: -150px;
   left: -150px;
   z-index: -1;
   width: 420px;
@@ -30,6 +30,19 @@
 
 .a-social svg:hover {
   color: #3C2A21;
+}
+
+.a-social .btn-cv {
+  background-color: var(--primary);
+  color: var(--secondary);
+  display: flex;
+  gap: .5rem;
+  font-weight: bolder;
+  border: none;
+  font-size: medium;
+  border-radius: 30px;
+  padding: 10px 30px;
+  cursor: pointer;
 }
 
 .a-mail {
