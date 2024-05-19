@@ -10,7 +10,7 @@ const Projects = () => {
       <h5 className='title'>Proyectos</h5>
       <article className='innerWidth paddings p-container'>
         {
-          projects.length >= 1
+          projects.length >= 2
             ? projects.map((p, index) => {
               return (
                 <article className='innerWidth p-details' key={index}>
@@ -41,7 +41,7 @@ const Projects = () => {
                 </article>
               )
             })
-            : <h6 className='flexCenter paddings'>Trabajando en ello 😛😛😛</h6>
+            : <h6 className='flexCenter paddings'>Trabajando en ello 🛠🛠</h6>
           }
       </article>
     </section>
