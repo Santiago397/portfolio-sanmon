@@ -1,3 +1,14 @@
 .app {
   position: relative;
+  display: flex;
+  row-gap: 15rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1020px) {
+  .app {
+    row-gap: 5rem;
+  }
 }

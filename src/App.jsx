@@ -9,7 +9,7 @@ import Contact from "./components/contact/Contact"
 const App = () => {
   return (
     <>
-      <section className="flexCenter innerWidth app">
+      <section className="innerWidth app">
         <Navbar />
         <Greeting />
         <About />
