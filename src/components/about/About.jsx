@@ -32,7 +32,7 @@ const About = () => {
         transition={{ duration: 0.5, delay: 0.25 }}
         className="flexColStart a-container"
       >
-        <h5 className="title">About</h5>
+        <h5 className="title">Sobre mí</h5>
         <p>
           Desarrollador web con <strong>un año</strong> de experiencia en el sector,
           apasionado por la tecnología y las innovaciones digitales <br />
