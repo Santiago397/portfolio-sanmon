@@ -20,7 +20,7 @@ const About = () => {
   }
 
   return (
-    <section className="flexCenter paddings innerWidth a-wrapper">
+    <section id="about" className="flexCenter paddings innerWidth a-wrapper">
       <Toaster />
       <motion.article
         variants={{

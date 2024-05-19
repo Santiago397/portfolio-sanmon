@@ -6,7 +6,7 @@ import { FaExternalLinkAlt } from 'react-icons/fa'
 
 const Projects = () => {
   return (
-    <section className="paddings innerWidth p-wrapper">
+    <section id='projects' className="paddings innerWidth p-wrapper">
       <h5 className='title'>Proyectos</h5>
       <article className='innerWidth paddings p-container'>
         {

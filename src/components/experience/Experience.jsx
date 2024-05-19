@@ -7,7 +7,7 @@ import Timeline from '../timeline/Timeline';
 
 const Experience = () => {
   return (
-    <section className="paddings innerWidth e-wrapper">
+    <section id='experience' className="paddings innerWidth e-wrapper">
       <motion.article 
         variants={{
           hidden: { opacity: 0, x: -75 },

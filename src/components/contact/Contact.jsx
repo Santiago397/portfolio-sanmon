@@ -24,7 +24,7 @@ const Contact = () => {
   }
 
   return (
-    <section className='paddings innerWidth c-wrapper'>
+    <section id='contact' className='paddings innerWidth c-wrapper'>
       <Toaster />
       <h5 className='title'>Ponte en contacto</h5>
       <article className="flexCenter innerWidth c-content">
