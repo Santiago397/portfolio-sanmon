@@ -32,6 +32,10 @@
 
 .g-image {
   width: 320px;
+  mask-image: linear-gradient(
+    black 95%,
+    transparent
+  );
 }
 
 .g-titles .title::before {
