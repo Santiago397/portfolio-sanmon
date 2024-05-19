@@ -47,7 +47,7 @@
   z-index: -1;
   width: 420px;
   height: 420px;
-  background-image: url('/public/blob.png');
+  background-image: url('/blob.png');
   background-size: cover;
   opacity: 0.6;
 }
